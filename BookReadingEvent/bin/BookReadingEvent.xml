@@ -114,41 +114,6 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="T:BookReadingEvent.Controllers.LoginController">
-            <summary>
-            This Controller will handle login related operation
-            </summary>
-        </member>
-        <member name="M:BookReadingEvent.Controllers.LoginController.#ctor(Services.IRepository.IEvent)">
-            <summary>
-            
-            </summary>
-            <param name="event"></param>
-        </member>
-        <member name="M:BookReadingEvent.Controllers.LoginController.#ctor">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:BookReadingEvent.Controllers.LoginController.Login">
-            <summary>
-            get login form
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:BookReadingEvent.Controllers.LoginController.Login(DataAccess.Models.LoginViewModel)">
-            <summary>
-            post login data
-            </summary>
-            <param name="loginViewModel"></param>
-            <returns></returns>
-        </member>
-        <member name="M:BookReadingEvent.Controllers.LoginController.Logout">
-            <summary>
-            logout from application
-            </summary>
-            <returns></returns>
-        </member>
         <member name="T:BookReadingEvent.Controllers.RegistrationController">
             <summary>
             Perform Registration for users
