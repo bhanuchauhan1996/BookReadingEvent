@@ -1,0 +1,64 @@
+﻿
+@model IEnumerable<DataAccess.Models.Event>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>List Of Events</h2>
+
+
+<table class="table" border="1" cellspacing="1" cellpadding="1">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EventDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EventLocation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StartTime)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Duration)
+        </th>
+
+        <th>Action</th>
+    </tr>
+    @if (Model != null)
+    {
+        foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventLocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartTime)
+
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Duration)
+            </td>
+
+            <td>
+
+                @Html.ActionLink("Details", "Details", new { id = item.Id })
+            </td>
+        </tr>
+        }
+    }
+</table>
+<p>
+    @Html.ActionLink("Back to Home", "Home")
+</p>

@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Services</name>
+    </assembly>
+    <members>
+        <member name="T:Services.IRepository.IEvent">
+            <summary>
+            This Interface is contains event related method
+            </summary>
+        </member>
+        <member name="M:Services.IRepository.IEvent.AddEvent(DataAccess.Models.Event,System.String)">
+            <summary>
+            This function is used to add event in the database which accepts two parameter.
+            </summary>
+            <param name="events"></param>
+            <param name="str"></param>
+        </member>
+        <member name="M:Services.IRepository.IEvent.UpdateEvent(DataAccess.Models.Event)">
+            <summary>
+            Used to update the event details given by users.
+            </summary>
+            <param name="events"></param>
+        </member>
+        <member name="M:Services.IRepository.IEvent.GetpastEvent">
+            <summary>
+            Used to fetch the completed event
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Services.IRepository.IEvent.GetfutureEvent">
+            <summary>
+            Used to fetch the upcoming events
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Services.IRepository.IEvent.GetEventInvite(System.Int32)">
+            <summary>
+            Used to fetch the event in which user is invited
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Services.IRepository.IRole">
+            <summary>
+            This Interface is to Implement Role Based Authentication
+            </summary>
+        </member>
+        <member name="M:Services.IRepository.IRole.AddRole(System.Int32)">
+            <summary>
+            Used to add role for the users in the database
+            </summary>
+            <param name="UserId"></param>
+        </member>
+        <member name="T:Services.IRepository.IRegistration">
+            <summary>
+            This Interface provides method which can be implemented for user registration.
+            </summary>
+        </member>
+        <member name="M:Services.IRepository.IRegistration.AddUser(DataAccess.Models.Registration)">
+            <summary>
+            Used to add new user to the table.
+            </summary>
+            <param name="registration"></param>
+        </member>
+        <member name="M:Services.IRepository.IRegistration.UpdateUser(DataAccess.Models.Registration)">
+            <summary>
+            Used to update the user details.
+            </summary>
+            <param name="registration"></param>
+        </member>
+        <member name="M:Services.IRepository.IRegistration.CheckEmailExists(System.String)">
+            <summary>
+            Used to check the duplicacy of the email.
+            </summary>
+            <param name="Email"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Services.Repository.EventRepo">
+            <summary>
+            This class implement the Event Interface.
+            </summary>
+        </member>
+        <member name="M:Services.Repository.EventRepo.#ctor(DataAccess.Models.DatabaseContext)">
+            <summary>
+            Parameterized constructor to initialize database
+            </summary>
+            <param name="databaseContext"></param>
+        </member>
+        <member name="M:Services.Repository.EventRepo.#ctor">
+            <summary>
+            Default constructor to allocate memory to database object.
+            </summary>
+        </member>
+        <member name="M:Services.Repository.EventRepo.AddEvent(DataAccess.Models.Event,System.String)">
+            <summary>
+            This function is used to add event in the database which accepts two parameter.
+            </summary>
+            <param name="events"></param>
+            <param name="str"></param>
+        </member>
+        <member name="M:Services.Repository.EventRepo.UpdateEvent(DataAccess.Models.Event)">
+            <summary>
+            Used to update the event details given by users.
+            </summary>
+            <param name="events"></param>
+        </member>
+        <member name="M:Services.Repository.EventRepo.GetpastEvent">
+            <summary>
+            Used to fetch the completed event
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Services.Repository.EventRepo.GetfutureEvent">
+            <summary>
+            Used to fetch the upcoming events
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Services.Repository.EventRepo.GetEventInvite(System.Int32)">
+            <summary>
+            Used to fetch the event in which user is invited
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Services.Repository.RegistrationRepo">
+            <summary>
+            This class implement the Registration Interface
+            </summary>
+        </member>
+        <member name="M:Services.Repository.RegistrationRepo.#ctor(DataAccess.Models.DatabaseContext)">
+            <summary>
+            Parameterized constructor to initialize database
+            </summary>
+            <param name="databaseContext"></param>
+        </member>
+        <member name="M:Services.Repository.RegistrationRepo.#ctor">
+            <summary>
+            Default constructor to allocate memory to database object.
+            </summary>
+        </member>
+        <member name="M:Services.Repository.RegistrationRepo.AddUser(DataAccess.Models.Registration)">
+            <summary>
+            Used to add new user to the table.
+            </summary>
+            <param name="registration"></param>
+        </member>
+        <member name="M:Services.Repository.RegistrationRepo.CheckEmailExists(System.String)">
+            <summary>
+            Used to check the duplicacy of the email.
+            </summary>
+            <param name="Email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Services.Repository.RegistrationRepo.UpdateUser(DataAccess.Models.Registration)">
+            <summary>
+            Used to update the user details.
+            </summary>
+            <param name="registration"></param>
+        </member>
+        <member name="T:Services.Repository.RoleRepo">
+            <summary>
+            This class implements the IRole interface which provide us role based authorization
+            </summary>
+        </member>
+        <member name="M:Services.Repository.RoleRepo.AddRole(System.Int32)">
+            <summary>
+            Used to add role for the users in the database
+            </summary>
+            <param name="UserId"></param>
+        </member>
+    </members>
+</doc>

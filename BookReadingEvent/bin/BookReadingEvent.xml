@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookReadingEvent</name>
+    </assembly>
+    <members>
+        <member name="T:BookReadingEvent.Controllers.EventController">
+            <summary>
+            This controller deals with event operations
+            </summary>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.EventController.#ctor(Services.IRepository.IEvent)">
+            <summary>
+            Constructor used to initialize Interface
+            </summary>
+            <param name="event"></param>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.EventController.#ctor">
+            <summary>
+            Allocate memory to the Repository
+            </summary>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.EventController.Index">
+            <summary>
+            Get the List of all events
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.EventController.EditIndex">
+            <summary>
+            GET: list of all the event which can be edited by the current logged in user.No user can edit any event
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.EventController.AdminEdit">
+            <summary>
+            Get: List of event which can be edit by the admin. Admin can edit event of any user.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.EventController.MyEvent">
+            <summary>
+            Get: list of event created by the logged in user.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.EventController.Home">
+            <summary>
+            GET:list of events all the upcoming and past event dynamically.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.EventController.Details(System.Int32)">
+            <summary>
+            GET: Details of the event whose id is given
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.EventController.Create">
+            <summary>
+            Get: create view to create the new event
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.EventController.Create(DataAccess.Models.Event,System.String)">
+            <summary>
+            Post: the details to the database
+            </summary>
+            <param name="event"></param>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.EventController.Edit(System.Int32)">
+            <summary>
+            get the event to be edited
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.EventController.Edit_Post(System.Int32)">
+            <summary>
+            Post: the event details
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.EventController.EventInvite">
+            <summary>
+            get the event invite for logged in user
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BookReadingEvent.Controllers.HomeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.HomeController.Index">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.HomeController.About">
+            <summary>
+            Holds information for organization
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.HomeController.Contact">
+            <summary>
+            contact related information
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BookReadingEvent.Controllers.LoginController">
+            <summary>
+            This Controller will handle login related operation
+            </summary>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.LoginController.#ctor(Services.IRepository.IEvent)">
+            <summary>
+            
+            </summary>
+            <param name="event"></param>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.LoginController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.LoginController.Login">
+            <summary>
+            get login form
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.LoginController.Login(DataAccess.Models.LoginViewModel)">
+            <summary>
+            post login data
+            </summary>
+            <param name="loginViewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.LoginController.Logout">
+            <summary>
+            logout from application
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BookReadingEvent.Controllers.RegistrationController">
+            <summary>
+            Perform Registration for users
+            </summary>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.RegistrationController.#ctor(Services.IRepository.IRegistration,Services.IRepository.IRole)">
+            <summary>
+            
+            </summary>
+            <param name="registration"></param>
+            <param name="role"></param>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.RegistrationController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.RegistrationController.Index">
+            <summary>
+            Get the list of all the users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.RegistrationController.Create">
+            <summary>
+            get the registration form
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.RegistrationController.Create(DataAccess.Models.Registration)">
+            <summary>
+            post the form data into database for registration
+            </summary>
+            <param name="registration"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.RegistrationController.Edit">
+            <summary>
+            Get from for editing user information
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BookReadingEvent.Controllers.RegistrationController.Edit_Post">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

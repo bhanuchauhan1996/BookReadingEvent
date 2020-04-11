@@ -1,0 +1,117 @@
+﻿
+@model dynamic
+@{
+    ViewBag.Title = "Display";
+}
+
+<h2>UpComing Events!!!</h2>
+
+<table class="table" border="1" cellspacing="1" cellpadding="1">
+    <tr>
+        <th>
+            Title
+        </th>
+        <th>
+            EventDate
+        </th>
+        <th>
+            EventLocation
+        </th>
+        <th>
+            StartTime
+        </th>
+
+        <th>
+            Duration
+        </th>
+
+        <th> Action</th>
+    </tr>
+    @if (Model != null)
+    {
+     foreach (var item in Model.FutureEventViewModel)
+      {
+        <tr>
+            <td>
+                @item.Title
+            </td>
+            <td>
+                @item.EventDate.ToShortDateString()
+            </td>
+            <td>
+                @item.EventLocation
+            </td>
+            <td>
+                @item.StartTime
+            </td>
+
+            <td>
+                @item.Duration
+            </td>
+
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.Id })
+
+            </td>
+        </tr>
+    }
+
+    }
+
+
+</table>
+
+<h2>Past Events</h2>
+<table class="table" border="1" cellspacing="1" cellpadding="1">
+    <tr>
+        <th>
+            Title
+        </th>
+        <th>
+            EventDate
+        </th>
+        <th>
+            EventLocation
+        </th>
+        <th>
+            StartTime
+        </th>
+
+        <th>
+            Duration
+        </th>
+
+        <th> Action</th>
+    </tr>
+    @if (Model != null)
+    {
+        foreach (var item in Model.PastEventViewModel)
+        {
+        <tr>
+            <td>
+                @item.Title
+            </td>
+            <td>
+                @item.EventDate.ToShortDateString()
+            </td>
+            <td>
+                @item.EventLocation
+            </td>
+            <td>
+                @item.StartTime
+            </td>
+
+            <td>
+                @item.Duration
+            </td>
+
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.Id })
+
+            </td>
+        </tr>
+        }
+
+    }
+</table>
+

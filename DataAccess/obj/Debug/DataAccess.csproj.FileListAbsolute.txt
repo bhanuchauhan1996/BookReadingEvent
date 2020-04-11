@@ -1,0 +1,16 @@
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\PagedList.dll
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\PagedList.Mvc.dll
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\PagedList.xml
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\PagedList.Mvc.xml
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\DataAccess.xml

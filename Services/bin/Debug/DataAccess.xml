@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataAccess</name>
+    </assembly>
+    <members>
+        <member name="T:DataAccess.CustomValidator.MaxEventDateValidator">
+            <summary>
+            This Class is used to validate Maximum Event Date.
+            </summary>
+        </member>
+        <member name="T:DataAccess.Models.DatabaseContext">
+            <summary>
+            This class extends DbContext class which is used to communicate with the database.
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.DatabaseContext.Events">
+            <summary>
+            This Property represent the Event model class.
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.DatabaseContext.Registrations">
+            <summary>
+            This Property represent the Registration model class.
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.DatabaseContext.Roles">
+            <summary>
+            This Property represent the Role model class.
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.DatabaseContext.RegistrationViewModels">
+            <summary>
+            This Property represent the Registration View model class.
+            </summary>
+        </member>
+        <member name="T:DataAccess.Models.Event">
+            <summary>
+            This class contains Event Related Information.
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Event.Id">
+            <summary>
+            It represents Event Id.
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Event.Title">
+            <summary>
+            It represents Title of the event.
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Event.EventDate">
+            <summary>
+            It represents Date of Event.
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Event.EventLocation">
+            <summary>
+            It represents Event Location.
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Event.StartTime">
+            <summary>
+            It represent Schedule time of event.
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Event.EventType">
+            <summary>
+            It represents Type of event .
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Event.Duration">
+            <summary>
+            It represents Event Duration.
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Event.EventDescription">
+            <summary>
+            It represents description of event.
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Event.OtherDetails">
+            <summary>
+            It represents other details of the Invite.
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Event.Invite">
+            <summary>
+            It represents Invited people in the event.
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Event.UserId">
+            <summary>
+            It represents user id of user who created that event.
+            </summary>
+        </member>
+        <member name="T:DataAccess.Models.LoginViewModel">
+            <summary>
+            This class contains Login Info
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.LoginViewModel.UserId">
+            <summary>
+            Id of user to be logged in
+            </summary>
+            
+        </member>
+        <member name="P:DataAccess.Models.LoginViewModel.Name">
+            <summary>
+            Name of the logged in user
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.LoginViewModel.Email">
+            <summary>
+            Email of the logged in user
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.LoginViewModel.Password">
+            <summary>
+            password field for login
+            </summary>
+        </member>
+        <member name="T:DataAccess.Models.RegistrationViewModel">
+            <summary>
+            It represents view for the registration class
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.RegistrationViewModel.UserId">
+            <summary>
+            It Represents User ID for the user
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.RegistrationViewModel.Name">
+            <summary>
+            It Represents Name of the user
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.RegistrationViewModel.Email">
+            <summary>
+            It Represents email of the user
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.RegistrationViewModel.Password">
+            <summary>
+            It Represents password of the user
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.RegistrationViewModel.ConfirmPassword">
+            <summary>
+            Holds the password Confirmation
+            </summary>
+        </member>
+        <member name="T:DataAccess.Models.Registration">
+            <summary>
+            This class is used to hold registration Information
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Registration.UserId">
+            <summary>
+            It Represents User ID for the user
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Registration.Name">
+            <summary>
+            It Represents Name of the user
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Registration.Email">
+            <summary>
+            It Represents email of the user
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Registration.Password">
+            <summary>
+            It Represents password of the user
+            </summary>
+        </member>
+        <member name="T:DataAccess.Models.Role">
+            <summary>
+            This class holds information regarding the role of user
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Role.Id">
+            <summary>
+            It represents the role id.
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Role.UserId">
+            <summary>
+            It is UserId of the user for that particular role
+            </summary>
+        </member>
+        <member name="P:DataAccess.Models.Role.RoleName">
+            <summary>
+            It holds name of the role.
+            </summary>
+        </member>
+        <member name="T:DataAccess.Models.UserRoleProvide">
+            <summary>
+            This class is used to handle role based authorization
+            </summary>
+        </member>
+        <member name="M:DataAccess.Models.UserRoleProvide.GetRolesForUser(System.String)">
+            <summary>
+            This method finds the roles for the particular user
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

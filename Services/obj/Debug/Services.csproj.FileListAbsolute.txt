@@ -1,0 +1,16 @@
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\bin\Debug\Services.dll
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\bin\Debug\Services.pdb
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\obj\Debug\Services.csprojAssemblyReference.cache
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\obj\Debug\Services.dll
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\obj\Debug\Services.pdb
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\bin\Debug\DataAccess.dll
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\bin\Debug\DataAccess.pdb
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\bin\Debug\DataAccess.dll.config
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\obj\Debug\Services.csproj.CopyComplete
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\bin\Debug\PagedList.dll
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\bin\Debug\PagedList.Mvc.dll
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\bin\Debug\PagedList.xml
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\bin\Debug\PagedList.Mvc.xml
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\bin\Debug\Services.xml
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\Services\bin\Debug\DataAccess.xml
