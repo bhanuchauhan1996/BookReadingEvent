@@ -5,6 +5,8 @@ Create database named EventDB
 create three table named as 
 Event , Registration , RoleUser
 
+
+change the data source as your sql server instance name in the connection string in web.config file
 ****************
 Event table
 
