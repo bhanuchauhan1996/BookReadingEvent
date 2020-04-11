@@ -56,7 +56,7 @@ namespace BookReadingEvent.Controllers
         /// <param name="loginViewModel"></param>
         /// <returns></returns>
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public ActionResult Login(LoginViewModel loginViewModel)
         {
            // try
@@ -70,7 +70,7 @@ namespace BookReadingEvent.Controllers
                     {
                         Registration registrations = context.Registrations.Single(x => x.Email == loginViewModel.Email);
 
-                        FormsAuthentication.SetAuthCookie(registrations.UserId.ToString(), false);
+                        FormsAuthentication.SetAuthCookie(registrations.UserId.ToString(), true);
                         return RedirectToAction("Home", "Event");
                     }
 

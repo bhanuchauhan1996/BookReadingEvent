@@ -76,11 +76,6 @@
             <param name="Email"></param>
             <returns></returns>
         </member>
-        <member name="M:Services.IRepository.IRegistration.DeleteUser(System.Int32)">
-            <summary>
-            Delete the user 
-            </summary>
-        </member>
         <member name="T:Services.Repository.EventRepo">
             <summary>
             This class implement the Event Interface.
@@ -163,12 +158,6 @@
             Used to update the user details.
             </summary>
             <param name="registration"></param>
-        </member>
-        <member name="M:Services.Repository.RegistrationRepo.DeleteUser(System.Int32)">
-            <summary>
-            Delete the user
-            </summary>
-            <param name="id"></param>
         </member>
         <member name="T:Services.Repository.RoleRepo">
             <summary>

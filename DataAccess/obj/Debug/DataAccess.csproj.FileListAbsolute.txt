@@ -14,3 +14,4 @@ C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\PagedLi
 C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\PagedList.xml
 C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\PagedList.Mvc.xml
 C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\bin\Debug\DataAccess.xml
+C:\Users\bhanuchauhan\source\repos\BookReadingEvent\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
